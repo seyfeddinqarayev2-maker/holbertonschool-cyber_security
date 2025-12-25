@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo ufw status verbose
+
+sudo iptables -L -v
